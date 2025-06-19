@@ -1,3 +1,4 @@
+### How to add submodule
 ```bash
 $ git clone https://github.com/path/to/repo.git
 $ cd <repo name>
@@ -8,6 +9,7 @@ $ git status .
 $ cd ..
 $ git status .
 ```
+### How to reflect submodule changes
 ```bash
 $ cd /path/to/submodule
 $ git add <modified file>
@@ -17,3 +19,4 @@ $ cd ..
 $ git add <submodule name>
 $ git commit -s -m"<Commit Message>"
 $ git push
+```
