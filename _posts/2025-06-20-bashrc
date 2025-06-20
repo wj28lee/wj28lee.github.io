@@ -1,0 +1,16 @@
+```bash
+alias ll='ls -alF'
+alias l='ls -CF'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias q='cd ..'
+alias qq='cd ../..'
+alias qqq='cd ../../..'
+alias gst='git status'
+alias gdf='git diff'
+alias glg='git log'
+export http_proxy=http://<ip address>:<port>
+export https_proxy=http://<ip address>:<port>
+export no_proxy=127.0.0.1,localhost,10.0.0.0/8,192.0.0.0/8,127.0.0.0/8
+```
