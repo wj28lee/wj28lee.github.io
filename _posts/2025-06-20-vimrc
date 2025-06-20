@@ -1,0 +1,11 @@
+```bash
+set noexpandtab
+set shiftwidth=4
+set tabstop=4
+set nu
+set hlsearch
+set autoindent
+set cindent
+set history=1000
+set colorcolumn=80
+```
