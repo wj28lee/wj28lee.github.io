@@ -18,12 +18,17 @@ $ cmake ..
 $ cmake --build .
 ```
 
-모니터링을 위해 주기적으로 bandwidth 정보를 화면에 띄우고 싶다면, 아래와 같이 사용하면 된다. 실행에는 sudo 권한이 필요하다.
+Usage는 아래와 같다.
+```bash
+# ./pcm-memory [delay] [options] [-- external_program [external_program_options]]
+```
+
+예를 들어, 모니터링을 위해 주기적으로 bandwidth 정보를 화면에 띄우고 싶다면, 아래와 같이 사용하면 된다. 실행에는 sudo 권한이 필요하다.
 ```bash
 $ sudo ./pcm-memory -u # -u: update measurements instead of printing new ones
 ```
 
-아래 명령어를 사용하면 1초마다 test.log 파일에 csv 형태로 각 dimm/cxl dram의 read, write bandwidth가 누적되어 기록된다.
+특정 프로그램이 사용하는 B/W만 측정하고자 하는 경우, 아래 명령어를 사용하면 된다. 1초마다 test.log 파일에 csv 형태로 각 dimm/cxl dram의 read, write bandwidth가 기록된다.
 ```bash
 $ sudo ./pcm-memory 1 -csv=test.log -- <your program>
 ```
