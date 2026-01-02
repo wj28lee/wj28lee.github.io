@@ -43,3 +43,14 @@ theme: minima
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
+
+giscus:
+  repo: "wj28lee/wj28lee.github.io"
+  repo_id: "R_kgDOO-Vbyg"
+  category: "Comments"
+  category_id: "DIC_kwDOO-Vbys4C0fQp"
+  mapping: "pathname"
+  reactions_enabled: "1"
+  theme: "light"
+  lang: "ko"
+
