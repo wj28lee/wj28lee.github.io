@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CXL 장치를 위한 daxctl 사용법"
+title: "CXL 메모리 장치를 위한 daxctl 명령어 사용법"
 categories: tech
 tags: [cxl, daxctl, devdax, system-ram]
 ---

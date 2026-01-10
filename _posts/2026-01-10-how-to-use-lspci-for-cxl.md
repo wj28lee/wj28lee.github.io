@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "CXL 장치를 위한 lspci 사용법"
+title: "CXL 메모리 장치를 위한 lspci 명령어 사용법"
 categories: tech
 tags: [cxl, lspci]
 ---
